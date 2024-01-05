@@ -1,0 +1,5 @@
+/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/TodoList.dir
+/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/TodoList_autogen_timestamp_deps.dir
+/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/TodoList_autogen.dir
