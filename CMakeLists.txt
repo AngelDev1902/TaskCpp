@@ -26,6 +26,8 @@ add_executable(TodoList main.cpp
         headers/newtask.h
         sources/login.cpp
         headers/login.h
+        sources/calendarPanel.cpp
+        headers/calendarPanel.h
 )
 target_link_libraries(TodoList
         Qt5::Core

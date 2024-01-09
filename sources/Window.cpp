@@ -37,10 +37,15 @@ void Window::initLayout() {
     task = new AllTask(content, userName);
     task->setMinimumSize(content->width(), content->height());
 
+    calendar = new CalendarPanel(content, task);
+    calendar->setMinimumSize(content->width(), content->height());
+
     // Agrega el widget de MyDay al stackedWidget primero
     stackedWidget->addWidget(home);
     // Luego agrega el widget de AllTask
     stackedWidget->addWidget(task);
+    // Luego agrega el widget de CalendarPanel
+    stackedWidget->addWidget(calendar);
 
     // Agregar el stackedWidget al layout del contenido
     QVBoxLayout *contentLayout = new QVBoxLayout(content);
@@ -72,10 +77,15 @@ void Window::initComponents() {
     taskButton->setMinimumSize(anchoBotones, altoBotones);
     taskButton->setMaximumSize(anchoBotones, altoBotones);
 
+    calendarButton = new QPushButton("Calendario");
+    calendarButton->setMinimumSize(anchoBotones, altoBotones);
+    calendarButton->setMaximumSize(anchoBotones, altoBotones);
+
     // Inserción de los componentes
     layoutActions->addWidget(user);
     layoutActions->addWidget(homeButton);
     layoutActions->addWidget(taskButton);
+    layoutActions->addWidget(calendarButton);
 
     // Asignar acciones a los botones
     QObject::connect(homeButton, &QPushButton::clicked, this, [&]() {
@@ -86,6 +96,11 @@ void Window::initComponents() {
     QObject::connect(taskButton, &QPushButton::clicked, this, [&]() {
         // Cambiar al widget AllTask en el stackedWidget
         stackedWidget->setCurrentIndex(1);
+    });
+
+    QObject::connect(calendarButton, &QPushButton::clicked, this, [&]() {
+        // Cambiar al widget CalendarPanel en el stackedWidget
+        stackedWidget->setCurrentIndex(2);
     });
 }
 

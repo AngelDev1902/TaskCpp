@@ -1,42 +1,8 @@
-TodoList_autogen/timestamp: \
-  /home/angel/CLionProjects/TodoList/CMakeLists.txt \
-  CMakeFiles/3.26.4/CMakeCCompiler.cmake \
-  CMakeFiles/3.26.4/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.26.4/CMakeSystem.cmake \
-  TodoList_autogen/moc_predefs.h \
-  /home/angel/CLionProjects/TodoList/headers/Window.h \
+/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/K6S233IZAZ/moc_calendarPanel.cpp: /home/angel/CLionProjects/TodoList/headers/calendarPanel.h \
+  /home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/moc_predefs.h \
   /home/angel/CLionProjects/TodoList/headers/alltasks.h \
-  /home/angel/CLionProjects/TodoList/headers/calendarPanel.h \
-  /home/angel/CLionProjects/TodoList/headers/login.h \
-  /home/angel/CLionProjects/TodoList/headers/myday.h \
   /home/angel/CLionProjects/TodoList/headers/newtask.h \
   /home/angel/CLionProjects/TodoList/headers/task.h \
-  /home/angel/CLionProjects/TodoList/main.cpp \
-  /home/angel/CLionProjects/TodoList/sources/Window.cpp \
-  /home/angel/CLionProjects/TodoList/sources/alltasks.cpp \
-  /home/angel/CLionProjects/TodoList/sources/calendarPanel.cpp \
-  /home/angel/CLionProjects/TodoList/sources/login.cpp \
-  /home/angel/CLionProjects/TodoList/sources/myday.cpp \
-  /home/angel/CLionProjects/TodoList/sources/newtask.cpp \
-  /home/angel/CLionProjects/TodoList/sources/task.cpp \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseArguments.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \
@@ -382,11 +348,7 @@ TodoList_autogen/timestamp: \
   /usr/include/qt/QtWidgets/QGridLayout \
   /usr/include/qt/QtWidgets/QLabel \
   /usr/include/qt/QtWidgets/QLineEdit \
-  /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/QMessageBox \
   /usr/include/qt/QtWidgets/QPushButton \
-  /usr/include/qt/QtWidgets/QSplitter \
-  /usr/include/qt/QtWidgets/QStackedWidget \
   /usr/include/qt/QtWidgets/QTextEdit \
   /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
@@ -403,13 +365,8 @@ TodoList_autogen/timestamp: \
   /usr/include/qt/QtWidgets/qlayout.h \
   /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/qlineedit.h \
-  /usr/include/qt/QtWidgets/qmainwindow.h \
-  /usr/include/qt/QtWidgets/qmessagebox.h \
   /usr/include/qt/QtWidgets/qpushbutton.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtWidgets/qsplitter.h \
-  /usr/include/qt/QtWidgets/qstackedwidget.h \
-  /usr/include/qt/QtWidgets/qtabwidget.h \
   /usr/include/qt/QtWidgets/qtextedit.h \
   /usr/include/qt/QtWidgets/qtwidgets-config.h \
   /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -426,66 +383,8 @@ TodoList_autogen/timestamp: \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/lib/cmake/Qt5/Qt5Config.cmake \
-  /usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
-  /usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake
+  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h

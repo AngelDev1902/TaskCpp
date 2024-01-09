@@ -10,6 +10,7 @@
 
 #include "myday.h"
 #include "alltasks.h"
+#include "calendarPanel.h"
 
 class Window : public QMainWindow {
 Q_OBJECT
@@ -30,10 +31,12 @@ private:
     // botones
     QPushButton *taskButton;
     QPushButton *homeButton;
+    QPushButton *calendarButton;
 
     // Paneles que iran en la seccion content
     MyDay *home;
     AllTask *task;
+    CalendarPanel *calendar;
 public:
     explicit Window(QWidget *parent = nullptr, QString userName = "User");
     ~Window() override;

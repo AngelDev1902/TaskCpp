@@ -24,7 +24,6 @@ protected:
     QString dateString;
     QString timeString;
     QFrame *tasksFrame;
-    QList<QPointer<Task>> *tasksList;
     QList<QString> *datesList;
     QLabel *titleLabel;
 
@@ -33,6 +32,8 @@ protected:
     QString userName;
 
 public:
+    QList<QPointer<Task>> *tasksList;
+
     explicit AllTask(QWidget *parent = nullptr, QString userName = "User");
     ~AllTask() override;
 

@@ -1,6 +1,7 @@
 /home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/K6S233IZAZ/moc_Window.cpp: /home/angel/CLionProjects/TodoList/headers/Window.h \
   /home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/moc_predefs.h \
   /home/angel/CLionProjects/TodoList/headers/alltasks.h \
+  /home/angel/CLionProjects/TodoList/headers/calendarPanel.h \
   /home/angel/CLionProjects/TodoList/headers/myday.h \
   /home/angel/CLionProjects/TodoList/headers/newtask.h \
   /home/angel/CLionProjects/TodoList/headers/task.h \
@@ -243,6 +244,7 @@
   /usr/include/qt/QtCore/QFile \
   /usr/include/qt/QtCore/QPointer \
   /usr/include/qt/QtCore/QTextStream \
+  /usr/include/qt/QtCore/QVector \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \

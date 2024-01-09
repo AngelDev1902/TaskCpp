@@ -113,6 +113,14 @@ build CMakeFiles/TodoList.dir/sources/login.cpp.o: CXX_COMPILER__TodoList_unscan
   OBJECT_DIR = CMakeFiles/TodoList.dir
   OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
 
+build CMakeFiles/TodoList.dir/sources/calendarPanel.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/sources/calendarPanel.cpp || cmake_object_order_depends_target_TodoList
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/TodoList.dir/sources/calendarPanel.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
+  OBJECT_DIR = CMakeFiles/TodoList.dir
+  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TodoList
@@ -121,7 +129,7 @@ build CMakeFiles/TodoList.dir/sources/login.cpp.o: CXX_COMPILER__TodoList_unscan
 #############################################
 # Link the executable TodoList
 
-build TodoList: CXX_EXECUTABLE_LINKER__TodoList_Debug CMakeFiles/TodoList.dir/TodoList_autogen/mocs_compilation.cpp.o CMakeFiles/TodoList.dir/main.cpp.o CMakeFiles/TodoList.dir/sources/Window.cpp.o CMakeFiles/TodoList.dir/sources/alltasks.cpp.o CMakeFiles/TodoList.dir/sources/myday.cpp.o CMakeFiles/TodoList.dir/sources/task.cpp.o CMakeFiles/TodoList.dir/sources/newtask.cpp.o CMakeFiles/TodoList.dir/sources/login.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || TodoList_autogen TodoList_autogen_timestamp_deps
+build TodoList: CXX_EXECUTABLE_LINKER__TodoList_Debug CMakeFiles/TodoList.dir/TodoList_autogen/mocs_compilation.cpp.o CMakeFiles/TodoList.dir/main.cpp.o CMakeFiles/TodoList.dir/sources/Window.cpp.o CMakeFiles/TodoList.dir/sources/alltasks.cpp.o CMakeFiles/TodoList.dir/sources/myday.cpp.o CMakeFiles/TodoList.dir/sources/task.cpp.o CMakeFiles/TodoList.dir/sources/newtask.cpp.o CMakeFiles/TodoList.dir/sources/login.cpp.o CMakeFiles/TodoList.dir/sources/calendarPanel.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || TodoList_autogen TodoList_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.11  /usr/lib/libQt5Gui.so.5.15.11  /usr/lib/libQt5Core.so.5.15.11
   OBJECT_DIR = CMakeFiles/TodoList.dir
@@ -179,7 +187,7 @@ build TodoList_autogen/timestamp TodoList_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Phony custom command for CMakeFiles/TodoList_autogen_timestamp_deps
 
-build CMakeFiles/TodoList_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/TodoList_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/bin/uic /usr/lib/libQt5Widgets.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Gui.so.5.15.11
+build CMakeFiles/TodoList_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/TodoList_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/bin/uic
 
 
 #############################################

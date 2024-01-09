@@ -109,6 +109,12 @@
 			null
 		],
 		[
+			"/home/angel/CLionProjects/TodoList/headers/calendarPanel.h",
+			"MU",
+			"K6S233IZAZ/moc_calendarPanel.cpp",
+			null
+		],
+		[
 			"/home/angel/CLionProjects/TodoList/headers/login.h",
 			"MU",
 			"K6S233IZAZ/moc_login.cpp",
@@ -186,6 +192,11 @@
 		[ "/home/angel/CLionProjects/TodoList/main.cpp", "MU", null ],
 		[ "/home/angel/CLionProjects/TodoList/sources/Window.cpp", "MU", null ],
 		[ "/home/angel/CLionProjects/TodoList/sources/alltasks.cpp", "MU", null ],
+		[
+			"/home/angel/CLionProjects/TodoList/sources/calendarPanel.cpp",
+			"MU",
+			null
+		],
 		[ "/home/angel/CLionProjects/TodoList/sources/login.cpp", "MU", null ],
 		[ "/home/angel/CLionProjects/TodoList/sources/myday.cpp", "MU", null ],
 		[ "/home/angel/CLionProjects/TodoList/sources/newtask.cpp", "MU", null ],

@@ -6,6 +6,7 @@ TodoList_autogen/timestamp: \
 	/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/moc_predefs.h \
 	/home/angel/CLionProjects/TodoList/headers/Window.h \
 	/home/angel/CLionProjects/TodoList/headers/alltasks.h \
+	/home/angel/CLionProjects/TodoList/headers/calendarPanel.h \
 	/home/angel/CLionProjects/TodoList/headers/login.h \
 	/home/angel/CLionProjects/TodoList/headers/myday.h \
 	/home/angel/CLionProjects/TodoList/headers/newtask.h \
@@ -13,6 +14,7 @@ TodoList_autogen/timestamp: \
 	/home/angel/CLionProjects/TodoList/main.cpp \
 	/home/angel/CLionProjects/TodoList/sources/Window.cpp \
 	/home/angel/CLionProjects/TodoList/sources/alltasks.cpp \
+	/home/angel/CLionProjects/TodoList/sources/calendarPanel.cpp \
 	/home/angel/CLionProjects/TodoList/sources/login.cpp \
 	/home/angel/CLionProjects/TodoList/sources/myday.cpp \
 	/home/angel/CLionProjects/TodoList/sources/newtask.cpp \
@@ -274,6 +276,7 @@ TodoList_autogen/timestamp: \
 	/usr/include/qt/QtCore/QFile \
 	/usr/include/qt/QtCore/QPointer \
 	/usr/include/qt/QtCore/QTextStream \
+	/usr/include/qt/QtCore/QVector \
 	/usr/include/qt/QtCore/qalgorithms.h \
 	/usr/include/qt/QtCore/qarraydata.h \
 	/usr/include/qt/QtCore/qatomic.h \
