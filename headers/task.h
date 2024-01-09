@@ -1,5 +1,5 @@
-#ifndef TODOLIST_TASKDAY_H
-#define TODOLIST_TASKDAY_H
+#ifndef TODOLIST_TASK_H
+#define TODOLIST_TASK_H
 
 #include <QWidget>
 #include <QGridLayout>
@@ -9,7 +9,7 @@
 #include <QCheckBox>
 
 
-class TaskDay : public QFrame{
+class Task : public QFrame{
 Q_OBJECT
 
 private:
@@ -23,8 +23,8 @@ private:
     QPushButton *editTaskButton;
     QPushButton *deleteTaskButton;
 public:
-    explicit TaskDay(QFrame *parent = nullptr, int = 0, QString title = "title", QString description = "Description", QString date = "Date", QString time = "Time");
-    ~TaskDay() override;
+    explicit Task(QFrame *parent = nullptr, int = 0, QString title = "title", QString description = "Description", QString date = "Date", QString time = "Time");
+    ~Task() override;
 
     void initComponents();
     void updateDates(QString title, QString description, QString date, QString time);
@@ -45,4 +45,4 @@ signals:
 };
 
 
-#endif //TODOLIST_TASKDAY_H
+#endif //TODOLIST_TASK_H

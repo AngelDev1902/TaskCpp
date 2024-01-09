@@ -20,8 +20,8 @@ add_executable(TodoList main.cpp
         sources/alltasks.cpp
         sources/myday.cpp
         headers/myday.h
-        sources/taskday.cpp
-        headers/taskday.h
+        sources/task.cpp
+        headers/task.h
         sources/newtask.cpp
         headers/newtask.h
         sources/login.cpp

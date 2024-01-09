@@ -9,14 +9,14 @@ TodoList_autogen/timestamp: \
 	/home/angel/CLionProjects/TodoList/headers/login.h \
 	/home/angel/CLionProjects/TodoList/headers/myday.h \
 	/home/angel/CLionProjects/TodoList/headers/newtask.h \
-	/home/angel/CLionProjects/TodoList/headers/taskday.h \
+	/home/angel/CLionProjects/TodoList/headers/task.h \
 	/home/angel/CLionProjects/TodoList/main.cpp \
 	/home/angel/CLionProjects/TodoList/sources/Window.cpp \
 	/home/angel/CLionProjects/TodoList/sources/alltasks.cpp \
 	/home/angel/CLionProjects/TodoList/sources/login.cpp \
 	/home/angel/CLionProjects/TodoList/sources/myday.cpp \
 	/home/angel/CLionProjects/TodoList/sources/newtask.cpp \
-	/home/angel/CLionProjects/TodoList/sources/taskday.cpp \
+	/home/angel/CLionProjects/TodoList/sources/task.cpp \
 	/opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake \
 	/opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake \
 	/opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake \

@@ -1,6 +1,6 @@
-#include "../headers/taskday.h"
+#include "../headers/task.h"
 
-TaskDay::TaskDay(QFrame *parent, int id, QString title, QString description, QString date, QString time) :
+Task::Task(QFrame *parent, int id, QString title, QString description, QString date, QString time) :
         QFrame(parent),
         id(id),
         title(title),
@@ -14,7 +14,7 @@ TaskDay::TaskDay(QFrame *parent, int id, QString title, QString description, QSt
     initComponents();
 }
 
-void TaskDay::initComponents() {
+void Task::initComponents() {
     QLabel *titleLabel = new QLabel();
     titleLabel->setText("Tarea " + QString::number(id) + ": " + title);
     titleLabel->setStyleSheet("font-size: 18px; font-weight: bold;");
@@ -57,21 +57,19 @@ void TaskDay::initComponents() {
     layout->addWidget(completeTask, 2, 1, 1, 3);
 }
 
-void TaskDay::deleteTask() {
+void Task::deleteTask() {
     emit deleteTaskSignal(id);
 }
 
-void TaskDay::editTask() {
+void Task::editTask() {
     emit editTaskSignal(id);
 }
 
-void TaskDay::updateDates(QString title, QString description, QString date, QString time) {
+void Task::updateDates(QString title, QString description, QString date, QString time) {
     this->title = title;
     this->description = description;
     this->date = date;
     this->time = time;
 }
 
-TaskDay::~TaskDay() {
-
-}
+Task::~Task() {}

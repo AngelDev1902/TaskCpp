@@ -1,7 +1,7 @@
 /home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/K6S233IZAZ/moc_myday.cpp: /home/angel/CLionProjects/TodoList/headers/myday.h \
   /home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/moc_predefs.h \
   /home/angel/CLionProjects/TodoList/headers/newtask.h \
-  /home/angel/CLionProjects/TodoList/headers/taskday.h \
+  /home/angel/CLionProjects/TodoList/headers/task.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \

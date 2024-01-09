@@ -1,40 +1,5 @@
-TodoList_autogen/timestamp: \
-  /home/angel/CLionProjects/TodoList/CMakeLists.txt \
-  CMakeFiles/3.26.4/CMakeCCompiler.cmake \
-  CMakeFiles/3.26.4/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.26.4/CMakeSystem.cmake \
-  TodoList_autogen/moc_predefs.h \
-  /home/angel/CLionProjects/TodoList/headers/Window.h \
-  /home/angel/CLionProjects/TodoList/headers/alltasks.h \
-  /home/angel/CLionProjects/TodoList/headers/login.h \
-  /home/angel/CLionProjects/TodoList/headers/myday.h \
-  /home/angel/CLionProjects/TodoList/headers/newtask.h \
-  /home/angel/CLionProjects/TodoList/headers/task.h \
-  /home/angel/CLionProjects/TodoList/main.cpp \
-  /home/angel/CLionProjects/TodoList/sources/Window.cpp \
-  /home/angel/CLionProjects/TodoList/sources/alltasks.cpp \
-  /home/angel/CLionProjects/TodoList/sources/login.cpp \
-  /home/angel/CLionProjects/TodoList/sources/myday.cpp \
-  /home/angel/CLionProjects/TodoList/sources/newtask.cpp \
-  /home/angel/CLionProjects/TodoList/sources/task.cpp \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeParseArguments.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake \
+/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/K6S233IZAZ/moc_task.cpp: /home/angel/CLionProjects/TodoList/headers/task.h \
+  /home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \
@@ -61,7 +26,6 @@ TodoList_autogen/timestamp: \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/sched.h \
   /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdio_lim.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/bits/syscall.h \
@@ -73,18 +37,14 @@ TodoList_autogen/timestamp: \
   /usr/include/bits/types.h \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/types/error_t.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_sched_param.h \
@@ -270,10 +230,6 @@ TodoList_autogen/timestamp: \
   /usr/include/locale.h \
   /usr/include/pthread.h \
   /usr/include/qt/QtCore/QDate \
-  /usr/include/qt/QtCore/QDebug \
-  /usr/include/qt/QtCore/QFile \
-  /usr/include/qt/QtCore/QPointer \
-  /usr/include/qt/QtCore/QTextStream \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -281,18 +237,13 @@ TodoList_autogen/timestamp: \
   /usr/include/qt/QtCore/qbasicatomic.h \
   /usr/include/qt/QtCore/qbytearray.h \
   /usr/include/qt/QtCore/qbytearraylist.h \
-  /usr/include/qt/QtCore/qcalendar.h \
   /usr/include/qt/QtCore/qchar.h \
   /usr/include/qt/QtCore/qcompilerdetection.h \
   /usr/include/qt/QtCore/qconfig.h \
   /usr/include/qt/QtCore/qcontainerfwd.h \
   /usr/include/qt/QtCore/qcontainertools_impl.h \
-  /usr/include/qt/QtCore/qcontiguouscache.h \
   /usr/include/qt/QtCore/qdatastream.h \
   /usr/include/qt/QtCore/qdatetime.h \
-  /usr/include/qt/QtCore/qdebug.h \
-  /usr/include/qt/QtCore/qfile.h \
-  /usr/include/qt/QtCore/qfiledevice.h \
   /usr/include/qt/QtCore/qflags.h \
   /usr/include/qt/QtCore/qgenericatomic.h \
   /usr/include/qt/QtCore/qglobal.h \
@@ -303,9 +254,7 @@ TodoList_autogen/timestamp: \
   /usr/include/qt/QtCore/qiterator.h \
   /usr/include/qt/QtCore/qline.h \
   /usr/include/qt/QtCore/qlist.h \
-  /usr/include/qt/QtCore/qlocale.h \
   /usr/include/qt/QtCore/qlogging.h \
-  /usr/include/qt/QtCore/qmap.h \
   /usr/include/qt/QtCore/qmargins.h \
   /usr/include/qt/QtCore/qmetatype.h \
   /usr/include/qt/QtCore/qnamespace.h \
@@ -316,14 +265,11 @@ TodoList_autogen/timestamp: \
   /usr/include/qt/QtCore/qobjectdefs_impl.h \
   /usr/include/qt/QtCore/qpair.h \
   /usr/include/qt/QtCore/qpoint.h \
-  /usr/include/qt/QtCore/qpointer.h \
   /usr/include/qt/QtCore/qprocessordetection.h \
   /usr/include/qt/QtCore/qrect.h \
   /usr/include/qt/QtCore/qrefcount.h \
   /usr/include/qt/QtCore/qregexp.h \
-  /usr/include/qt/QtCore/qregularexpression.h \
   /usr/include/qt/QtCore/qscopedpointer.h \
-  /usr/include/qt/QtCore/qset.h \
   /usr/include/qt/QtCore/qshareddata.h \
   /usr/include/qt/QtCore/qsharedpointer.h \
   /usr/include/qt/QtCore/qsharedpointer_impl.h \
@@ -337,10 +283,7 @@ TodoList_autogen/timestamp: \
   /usr/include/qt/QtCore/qsysinfo.h \
   /usr/include/qt/QtCore/qsystemdetection.h \
   /usr/include/qt/QtCore/qtcore-config.h \
-  /usr/include/qt/QtCore/qtextstream.h \
   /usr/include/qt/QtCore/qtypeinfo.h \
-  /usr/include/qt/QtCore/qurl.h \
-  /usr/include/qt/QtCore/qvariant.h \
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
   /usr/include/qt/QtCore/qversiontagging.h \
@@ -356,64 +299,36 @@ TodoList_autogen/timestamp: \
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
   /usr/include/qt/QtGui/qpalette.h \
-  /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qpixelformat.h \
   /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtGui/qpolygon.h \
   /usr/include/qt/QtGui/qregion.h \
   /usr/include/qt/QtGui/qrgb.h \
   /usr/include/qt/QtGui/qrgba64.h \
-  /usr/include/qt/QtGui/qtextcursor.h \
-  /usr/include/qt/QtGui/qtextdocument.h \
-  /usr/include/qt/QtGui/qtextformat.h \
-  /usr/include/qt/QtGui/qtextoption.h \
   /usr/include/qt/QtGui/qtgui-config.h \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
-  /usr/include/qt/QtGui/qvalidator.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
   /usr/include/qt/QtWidgets/QCheckBox \
-  /usr/include/qt/QtWidgets/QDateEdit \
-  /usr/include/qt/QtWidgets/QDialog \
-  /usr/include/qt/QtWidgets/QFrame \
   /usr/include/qt/QtWidgets/QGridLayout \
   /usr/include/qt/QtWidgets/QLabel \
-  /usr/include/qt/QtWidgets/QLineEdit \
-  /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/QMessageBox \
   /usr/include/qt/QtWidgets/QPushButton \
-  /usr/include/qt/QtWidgets/QSplitter \
-  /usr/include/qt/QtWidgets/QStackedWidget \
-  /usr/include/qt/QtWidgets/QTextEdit \
-  /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
   /usr/include/qt/QtWidgets/qabstractbutton.h \
-  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
-  /usr/include/qt/QtWidgets/qabstractspinbox.h \
   /usr/include/qt/QtWidgets/qboxlayout.h \
   /usr/include/qt/QtWidgets/qcheckbox.h \
-  /usr/include/qt/QtWidgets/qdatetimeedit.h \
-  /usr/include/qt/QtWidgets/qdialog.h \
   /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/qgridlayout.h \
   /usr/include/qt/QtWidgets/qlabel.h \
   /usr/include/qt/QtWidgets/qlayout.h \
   /usr/include/qt/QtWidgets/qlayoutitem.h \
-  /usr/include/qt/QtWidgets/qlineedit.h \
-  /usr/include/qt/QtWidgets/qmainwindow.h \
-  /usr/include/qt/QtWidgets/qmessagebox.h \
   /usr/include/qt/QtWidgets/qpushbutton.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtWidgets/qsplitter.h \
-  /usr/include/qt/QtWidgets/qstackedwidget.h \
-  /usr/include/qt/QtWidgets/qtabwidget.h \
-  /usr/include/qt/QtWidgets/qtextedit.h \
   /usr/include/qt/QtWidgets/qtwidgets-config.h \
   /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
   /usr/include/qt/QtWidgets/qwidget.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
@@ -423,66 +338,8 @@ TodoList_autogen/timestamp: \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/lib/cmake/Qt5/Qt5Config.cmake \
-  /usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
-  /usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h \
-  /opt/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake
+  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h

@@ -12,7 +12,7 @@
 #include <QFile>
 #include <QTextStream>
 
-#include "taskday.h"
+#include "task.h"
 #include "newtask.h"
 
 class MyDay : public QWidget {
@@ -23,25 +23,26 @@ private:
     QString dateString;
     QString timeString;
     QFrame *tasksFrame;
-    QList<QPointer<TaskDay>> tasksList;
+    QList<QPointer<Task>> *tasksList;
+
+    QFile *file;
 
     QString userName;
+    int numberTask;
 
 public:
     explicit MyDay(QWidget *parent = nullptr, QString userName = "User");
     ~MyDay() override;
 
-    static int numberTask;
     void initComponents();
     void viewTasks();
+    void modifyTasksFile();
+    void readTasksFile();
 
 private slots:
-    void createNewTaskButton();
-    void createNewTask(const QString &title, const QString &description, const QDate &date, const QTime &time);
-
-    void deleteTaskFromList(int taskId);
-
-    void editTaskFromList(int taskId);
+    void createNewTask();
+    void deleteTask(int taskId);
+    void editTask(int taskId);
 
     signals:
     void deleteTaskSignal(int id);

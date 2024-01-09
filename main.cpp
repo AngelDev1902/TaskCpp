@@ -16,10 +16,8 @@ int main(int argc, char *argv[]) {
     login->show();
 
     QObject::connect(login, &Login::loginSignal, [&](QString username){
-        /*Window *window = new Window(nullptr, username);
-        window->show();*/
-
-        qDebug() << "Username: " << username << "\n";
+        Window *window = new Window(nullptr, username);
+        window->show();
     });
 
     return app.exec();

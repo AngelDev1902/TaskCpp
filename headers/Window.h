@@ -23,8 +23,8 @@ private:
     QWidget *content;
 
     // Layouts de los paneles
-    QVBoxLayout *layoutActions;
     QSplitter *splitter;
+    QVBoxLayout *layoutActions;
     QStackedWidget *stackedWidget;
 
     // botones
@@ -32,8 +32,8 @@ private:
     QPushButton *homeButton;
 
     // Paneles que iran en la seccion content
-    AllTask *task;
     MyDay *home;
+    AllTask *task;
 public:
     explicit Window(QWidget *parent = nullptr, QString userName = "User");
     ~Window() override;

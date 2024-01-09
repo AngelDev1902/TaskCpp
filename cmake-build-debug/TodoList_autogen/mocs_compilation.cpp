@@ -4,4 +4,4 @@
 #include "K6S233IZAZ/moc_login.cpp"
 #include "K6S233IZAZ/moc_myday.cpp"
 #include "K6S233IZAZ/moc_newtask.cpp"
-#include "K6S233IZAZ/moc_taskday.cpp"
+#include "K6S233IZAZ/moc_task.cpp"

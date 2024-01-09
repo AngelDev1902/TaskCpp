@@ -127,9 +127,9 @@
 			null
 		],
 		[
-			"/home/angel/CLionProjects/TodoList/headers/taskday.h",
+			"/home/angel/CLionProjects/TodoList/headers/task.h",
 			"MU",
-			"K6S233IZAZ/moc_taskday.cpp",
+			"K6S233IZAZ/moc_task.cpp",
 			null
 		]
 	],
@@ -189,7 +189,7 @@
 		[ "/home/angel/CLionProjects/TodoList/sources/login.cpp", "MU", null ],
 		[ "/home/angel/CLionProjects/TodoList/sources/myday.cpp", "MU", null ],
 		[ "/home/angel/CLionProjects/TodoList/sources/newtask.cpp", "MU", null ],
-		[ "/home/angel/CLionProjects/TodoList/sources/taskday.cpp", "MU", null ]
+		[ "/home/angel/CLionProjects/TodoList/sources/task.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
