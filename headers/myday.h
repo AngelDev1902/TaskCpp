@@ -9,6 +9,8 @@
 #include <QPushButton>
 #include <QLabel>
 #include <QPointer>
+#include <QFile>
+#include <QTextStream>
 
 #include "taskday.h"
 #include "newtask.h"

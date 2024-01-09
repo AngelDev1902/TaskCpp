@@ -14,16 +14,18 @@ find_package(Qt5 COMPONENTS
         REQUIRED)
 
 add_executable(TodoList main.cpp
-        Window.cpp
-        Window.h
-        alltasks.h
-        alltasks.cpp
-        myday.cpp
-        myday.h
-        taskday.cpp
-        taskday.h
-        newtask.cpp
-        newtask.h
+        sources/Window.cpp
+        headers/Window.h
+        headers/alltasks.h
+        sources/alltasks.cpp
+        sources/myday.cpp
+        headers/myday.h
+        sources/taskday.cpp
+        headers/taskday.h
+        sources/newtask.cpp
+        headers/newtask.h
+        sources/login.cpp
+        headers/login.h
 )
 target_link_libraries(TodoList
         Qt5::Core

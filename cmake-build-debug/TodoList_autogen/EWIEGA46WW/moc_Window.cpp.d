@@ -240,7 +240,9 @@
   /usr/include/pthread.h \
   /usr/include/qt/QtCore/QDate \
   /usr/include/qt/QtCore/QDebug \
+  /usr/include/qt/QtCore/QFile \
   /usr/include/qt/QtCore/QPointer \
+  /usr/include/qt/QtCore/QTextStream \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -258,6 +260,8 @@
   /usr/include/qt/QtCore/qdatastream.h \
   /usr/include/qt/QtCore/qdatetime.h \
   /usr/include/qt/QtCore/qdebug.h \
+  /usr/include/qt/QtCore/qfile.h \
+  /usr/include/qt/QtCore/qfiledevice.h \
   /usr/include/qt/QtCore/qflags.h \
   /usr/include/qt/QtCore/qgenericatomic.h \
   /usr/include/qt/QtCore/qglobal.h \

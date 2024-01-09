@@ -97,33 +97,39 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/angel/CLionProjects/TodoList/Window.h",
+			"/home/angel/CLionProjects/TodoList/headers/Window.h",
 			"MU",
-			"EWIEGA46WW/moc_Window.cpp",
+			"K6S233IZAZ/moc_Window.cpp",
 			null
 		],
 		[
-			"/home/angel/CLionProjects/TodoList/alltasks.h",
+			"/home/angel/CLionProjects/TodoList/headers/alltasks.h",
 			"MU",
-			"EWIEGA46WW/moc_alltasks.cpp",
+			"K6S233IZAZ/moc_alltasks.cpp",
 			null
 		],
 		[
-			"/home/angel/CLionProjects/TodoList/myday.h",
+			"/home/angel/CLionProjects/TodoList/headers/login.h",
 			"MU",
-			"EWIEGA46WW/moc_myday.cpp",
+			"K6S233IZAZ/moc_login.cpp",
 			null
 		],
 		[
-			"/home/angel/CLionProjects/TodoList/newtask.h",
+			"/home/angel/CLionProjects/TodoList/headers/myday.h",
 			"MU",
-			"EWIEGA46WW/moc_newtask.cpp",
+			"K6S233IZAZ/moc_myday.cpp",
 			null
 		],
 		[
-			"/home/angel/CLionProjects/TodoList/taskday.h",
+			"/home/angel/CLionProjects/TodoList/headers/newtask.h",
 			"MU",
-			"EWIEGA46WW/moc_taskday.cpp",
+			"K6S233IZAZ/moc_newtask.cpp",
+			null
+		],
+		[
+			"/home/angel/CLionProjects/TodoList/headers/taskday.h",
+			"MU",
+			"K6S233IZAZ/moc_taskday.cpp",
 			null
 		]
 	],
@@ -177,12 +183,13 @@
 	"SETTINGS_FILE" : "/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/TodoList_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/angel/CLionProjects/TodoList/Window.cpp", "MU", null ],
-		[ "/home/angel/CLionProjects/TodoList/alltasks.cpp", "MU", null ],
 		[ "/home/angel/CLionProjects/TodoList/main.cpp", "MU", null ],
-		[ "/home/angel/CLionProjects/TodoList/myday.cpp", "MU", null ],
-		[ "/home/angel/CLionProjects/TodoList/newtask.cpp", "MU", null ],
-		[ "/home/angel/CLionProjects/TodoList/taskday.cpp", "MU", null ]
+		[ "/home/angel/CLionProjects/TodoList/sources/Window.cpp", "MU", null ],
+		[ "/home/angel/CLionProjects/TodoList/sources/alltasks.cpp", "MU", null ],
+		[ "/home/angel/CLionProjects/TodoList/sources/login.cpp", "MU", null ],
+		[ "/home/angel/CLionProjects/TodoList/sources/myday.cpp", "MU", null ],
+		[ "/home/angel/CLionProjects/TodoList/sources/newtask.cpp", "MU", null ],
+		[ "/home/angel/CLionProjects/TodoList/sources/taskday.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

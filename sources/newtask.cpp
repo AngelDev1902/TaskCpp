@@ -1,4 +1,4 @@
-#include "newtask.h"
+#include "../headers/newtask.h"
 
 NewTask::NewTask(QWidget *parent) :
         QDialog(parent){

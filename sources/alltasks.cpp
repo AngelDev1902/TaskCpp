@@ -1,4 +1,4 @@
-#include "alltasks.h"
+#include "../headers/alltasks.h"
 
 AllTask::AllTask(QWidget *parent) :
         QWidget(parent) {

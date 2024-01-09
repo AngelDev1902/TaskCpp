@@ -65,45 +65,53 @@ build CMakeFiles/TodoList.dir/main.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug
   OBJECT_DIR = CMakeFiles/TodoList.dir
   OBJECT_FILE_DIR = CMakeFiles/TodoList.dir
 
-build CMakeFiles/TodoList.dir/Window.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/Window.cpp || cmake_object_order_depends_target_TodoList
+build CMakeFiles/TodoList.dir/sources/Window.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/sources/Window.cpp || cmake_object_order_depends_target_TodoList
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/TodoList.dir/Window.cpp.o.d
+  DEP_FILE = CMakeFiles/TodoList.dir/sources/Window.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/TodoList.dir
-  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir
+  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
 
-build CMakeFiles/TodoList.dir/alltasks.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/alltasks.cpp || cmake_object_order_depends_target_TodoList
+build CMakeFiles/TodoList.dir/sources/alltasks.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/sources/alltasks.cpp || cmake_object_order_depends_target_TodoList
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/TodoList.dir/alltasks.cpp.o.d
+  DEP_FILE = CMakeFiles/TodoList.dir/sources/alltasks.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/TodoList.dir
-  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir
+  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
 
-build CMakeFiles/TodoList.dir/myday.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/myday.cpp || cmake_object_order_depends_target_TodoList
+build CMakeFiles/TodoList.dir/sources/myday.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/sources/myday.cpp || cmake_object_order_depends_target_TodoList
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/TodoList.dir/myday.cpp.o.d
+  DEP_FILE = CMakeFiles/TodoList.dir/sources/myday.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/TodoList.dir
-  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir
+  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
 
-build CMakeFiles/TodoList.dir/taskday.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/taskday.cpp || cmake_object_order_depends_target_TodoList
+build CMakeFiles/TodoList.dir/sources/taskday.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/sources/taskday.cpp || cmake_object_order_depends_target_TodoList
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/TodoList.dir/taskday.cpp.o.d
+  DEP_FILE = CMakeFiles/TodoList.dir/sources/taskday.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/TodoList.dir
-  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir
+  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
 
-build CMakeFiles/TodoList.dir/newtask.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/newtask.cpp || cmake_object_order_depends_target_TodoList
+build CMakeFiles/TodoList.dir/sources/newtask.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/sources/newtask.cpp || cmake_object_order_depends_target_TodoList
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/TodoList.dir/newtask.cpp.o.d
+  DEP_FILE = CMakeFiles/TodoList.dir/sources/newtask.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
   OBJECT_DIR = CMakeFiles/TodoList.dir
-  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir
+  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
+
+build CMakeFiles/TodoList.dir/sources/login.cpp.o: CXX_COMPILER__TodoList_unscanned_Debug /home/angel/CLionProjects/TodoList/sources/login.cpp || cmake_object_order_depends_target_TodoList
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/TodoList.dir/sources/login.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets
+  OBJECT_DIR = CMakeFiles/TodoList.dir
+  OBJECT_FILE_DIR = CMakeFiles/TodoList.dir/sources
 
 
 # =============================================================================
@@ -113,7 +121,7 @@ build CMakeFiles/TodoList.dir/newtask.cpp.o: CXX_COMPILER__TodoList_unscanned_De
 #############################################
 # Link the executable TodoList
 
-build TodoList: CXX_EXECUTABLE_LINKER__TodoList_Debug CMakeFiles/TodoList.dir/TodoList_autogen/mocs_compilation.cpp.o CMakeFiles/TodoList.dir/main.cpp.o CMakeFiles/TodoList.dir/Window.cpp.o CMakeFiles/TodoList.dir/alltasks.cpp.o CMakeFiles/TodoList.dir/myday.cpp.o CMakeFiles/TodoList.dir/taskday.cpp.o CMakeFiles/TodoList.dir/newtask.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || TodoList_autogen TodoList_autogen_timestamp_deps
+build TodoList: CXX_EXECUTABLE_LINKER__TodoList_Debug CMakeFiles/TodoList.dir/TodoList_autogen/mocs_compilation.cpp.o CMakeFiles/TodoList.dir/main.cpp.o CMakeFiles/TodoList.dir/sources/Window.cpp.o CMakeFiles/TodoList.dir/sources/alltasks.cpp.o CMakeFiles/TodoList.dir/sources/myday.cpp.o CMakeFiles/TodoList.dir/sources/taskday.cpp.o CMakeFiles/TodoList.dir/sources/newtask.cpp.o CMakeFiles/TodoList.dir/sources/login.cpp.o | /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11 /usr/lib/libQt5Core.so.5.15.11 || TodoList_autogen TodoList_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.11  /usr/lib/libQt5Gui.so.5.15.11  /usr/lib/libQt5Core.so.5.15.11
   OBJECT_DIR = CMakeFiles/TodoList.dir
@@ -171,7 +179,7 @@ build TodoList_autogen/timestamp TodoList_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Phony custom command for CMakeFiles/TodoList_autogen_timestamp_deps
 
-build CMakeFiles/TodoList_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/TodoList_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/bin/uic /usr/bin/moc /usr/lib/libQt5Widgets.so.5.15.11 /usr/lib/libQt5Gui.so.5.15.11
+build CMakeFiles/TodoList_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/TodoList_autogen_timestamp_deps: phony /usr/lib/libQt5Core.so.5.15.11 /usr/bin/uic /usr/lib/libQt5Widgets.so.5.15.11 /usr/bin/moc /usr/lib/libQt5Gui.so.5.15.11
 
 
 #############################################

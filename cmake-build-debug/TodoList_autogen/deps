@@ -1,20 +1,22 @@
 TodoList_autogen/timestamp: \
 	/home/angel/CLionProjects/TodoList/CMakeLists.txt \
-	/home/angel/CLionProjects/TodoList/Window.cpp \
-	/home/angel/CLionProjects/TodoList/Window.h \
-	/home/angel/CLionProjects/TodoList/alltasks.cpp \
-	/home/angel/CLionProjects/TodoList/alltasks.h \
 	/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake \
 	/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake \
 	/home/angel/CLionProjects/TodoList/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake \
 	/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/moc_predefs.h \
+	/home/angel/CLionProjects/TodoList/headers/Window.h \
+	/home/angel/CLionProjects/TodoList/headers/alltasks.h \
+	/home/angel/CLionProjects/TodoList/headers/login.h \
+	/home/angel/CLionProjects/TodoList/headers/myday.h \
+	/home/angel/CLionProjects/TodoList/headers/newtask.h \
+	/home/angel/CLionProjects/TodoList/headers/taskday.h \
 	/home/angel/CLionProjects/TodoList/main.cpp \
-	/home/angel/CLionProjects/TodoList/myday.cpp \
-	/home/angel/CLionProjects/TodoList/myday.h \
-	/home/angel/CLionProjects/TodoList/newtask.cpp \
-	/home/angel/CLionProjects/TodoList/newtask.h \
-	/home/angel/CLionProjects/TodoList/taskday.cpp \
-	/home/angel/CLionProjects/TodoList/taskday.h \
+	/home/angel/CLionProjects/TodoList/sources/Window.cpp \
+	/home/angel/CLionProjects/TodoList/sources/alltasks.cpp \
+	/home/angel/CLionProjects/TodoList/sources/login.cpp \
+	/home/angel/CLionProjects/TodoList/sources/myday.cpp \
+	/home/angel/CLionProjects/TodoList/sources/newtask.cpp \
+	/home/angel/CLionProjects/TodoList/sources/taskday.cpp \
 	/opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake \
 	/opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake \
 	/opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake \
@@ -269,7 +271,9 @@ TodoList_autogen/timestamp: \
 	/usr/include/pthread.h \
 	/usr/include/qt/QtCore/QDate \
 	/usr/include/qt/QtCore/QDebug \
+	/usr/include/qt/QtCore/QFile \
 	/usr/include/qt/QtCore/QPointer \
+	/usr/include/qt/QtCore/QTextStream \
 	/usr/include/qt/QtCore/qalgorithms.h \
 	/usr/include/qt/QtCore/qarraydata.h \
 	/usr/include/qt/QtCore/qatomic.h \
@@ -287,6 +291,8 @@ TodoList_autogen/timestamp: \
 	/usr/include/qt/QtCore/qdatastream.h \
 	/usr/include/qt/QtCore/qdatetime.h \
 	/usr/include/qt/QtCore/qdebug.h \
+	/usr/include/qt/QtCore/qfile.h \
+	/usr/include/qt/QtCore/qfiledevice.h \
 	/usr/include/qt/QtCore/qflags.h \
 	/usr/include/qt/QtCore/qgenericatomic.h \
 	/usr/include/qt/QtCore/qglobal.h \
@@ -374,6 +380,7 @@ TodoList_autogen/timestamp: \
 	/usr/include/qt/QtWidgets/QLabel \
 	/usr/include/qt/QtWidgets/QLineEdit \
 	/usr/include/qt/QtWidgets/QMainWindow \
+	/usr/include/qt/QtWidgets/QMessageBox \
 	/usr/include/qt/QtWidgets/QPushButton \
 	/usr/include/qt/QtWidgets/QSplitter \
 	/usr/include/qt/QtWidgets/QStackedWidget \
@@ -394,6 +401,7 @@ TodoList_autogen/timestamp: \
 	/usr/include/qt/QtWidgets/qlayoutitem.h \
 	/usr/include/qt/QtWidgets/qlineedit.h \
 	/usr/include/qt/QtWidgets/qmainwindow.h \
+	/usr/include/qt/QtWidgets/qmessagebox.h \
 	/usr/include/qt/QtWidgets/qpushbutton.h \
 	/usr/include/qt/QtWidgets/qsizepolicy.h \
 	/usr/include/qt/QtWidgets/qsplitter.h \
