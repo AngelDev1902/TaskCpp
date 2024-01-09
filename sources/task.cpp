@@ -16,7 +16,7 @@ Task::Task(QFrame *parent, int id, QString title, QString description, QString d
 
 void Task::initComponents() {
     QLabel *titleLabel = new QLabel();
-    titleLabel->setText("Tarea " + QString::number(id) + ": " + title);
+    titleLabel->setText("Tarea : " + title);
     titleLabel->setStyleSheet("font-size: 18px; font-weight: bold;");
     titleLabel->setFixedWidth(maximumWidth() - 30);
 

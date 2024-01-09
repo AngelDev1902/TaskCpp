@@ -34,7 +34,7 @@ void Window::initLayout() {
     home = new MyDay(content, userName);
     home->setMinimumSize(content->width(), content->height());
 
-    task = new AllTask(content);
+    task = new AllTask(content, userName);
     task->setMinimumSize(content->width(), content->height());
 
     // Agrega el widget de MyDay al stackedWidget primero
