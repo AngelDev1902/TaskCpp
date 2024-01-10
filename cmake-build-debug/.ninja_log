@@ -74,3 +74,14 @@
 4	45	1704785463789037800	/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/mocs_compilation.cpp	86f0a0ff2f20e404
 47	2646	1704785466385690218	CMakeFiles/TodoList.dir/sources/calendarPanel.cpp.o	c91ff270f2fec4d9
 2646	3028	1704785466765688132	TodoList	342ae01f5e7245a4
+7	829	1704844952234853973	TodoList_autogen/timestamp	86f0a0ff2f20e404
+7	829	1704844952234853973	TodoList_autogen/mocs_compilation.cpp	86f0a0ff2f20e404
+7	829	1704844952234853973	/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/timestamp	86f0a0ff2f20e404
+7	829	1704844952234853973	/home/angel/CLionProjects/TodoList/cmake-build-debug/TodoList_autogen/mocs_compilation.cpp	86f0a0ff2f20e404
+4	2886	1704845083982237863	CMakeFiles/TodoList.dir/sources/myday.cpp.o	12f01ce71d3c7aa9
+4	3022	1704845084115571193	CMakeFiles/TodoList.dir/sources/Window.cpp.o	1bad891604010dfc
+3	3065	1704845084162237858	CMakeFiles/TodoList.dir/main.cpp.o	cd68a16eb7a6983d
+5	3148	1704845084245571189	CMakeFiles/TodoList.dir/sources/calendarPanel.cpp.o	c91ff270f2fec4d9
+2	3149	1704845084245571189	CMakeFiles/TodoList.dir/TodoList_autogen/mocs_compilation.cpp.o	3840ba30edb34bf8
+4	3266	1704845084362237852	CMakeFiles/TodoList.dir/sources/alltasks.cpp.o	4b17fcd0c79e7adf
+3266	3717	1704845084812237839	TodoList	342ae01f5e7245a4

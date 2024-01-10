@@ -31,12 +31,17 @@ void Window::initLayout() {
     // QStackedWidget para almacenar los diferentes frames en el panel de contenido
     stackedWidget = new QStackedWidget(content);
 
+    // Paneles que iran en el stackedWidget
+
+    // Se crea el panel de MyDay
     home = new MyDay(content, userName);
     home->setMinimumSize(content->width(), content->height());
 
+    // Se crea el panel de AllTask
     task = new AllTask(content, userName);
     task->setMinimumSize(content->width(), content->height());
 
+    // Se crea el panel de CalendarPanel
     calendar = new CalendarPanel(content, task);
     calendar->setMinimumSize(content->width(), content->height());
 
@@ -64,19 +69,23 @@ void Window::initComponents() {
     int anchoBotones{actions->width() - 20};
     int altoBotones{80};
 
-    QLabel *user = new QLabel(userName);
+    QLabel *user = new QLabel("Bienvenido" + userName);
     user->setAlignment(Qt::AlignCenter);
+    user->setStyleSheet("color: white; font-size: 25px; font-weight: bold;");
     user->setMinimumSize(anchoBotones, altoBotones);
     user->setMaximumSize(anchoBotones, altoBotones);
 
+    // Boton para ir al panel de MyDay
     homeButton = new QPushButton("Mi Dia");
     homeButton->setMinimumSize(anchoBotones, altoBotones);
     homeButton->setMaximumSize(anchoBotones, altoBotones);
 
+    // Boton para ir al panel de AllTask
     taskButton = new QPushButton("Tareas");
     taskButton->setMinimumSize(anchoBotones, altoBotones);
     taskButton->setMaximumSize(anchoBotones, altoBotones);
 
+    // Boton para ir al panel de CalendarPanel
     calendarButton = new QPushButton("Calendario");
     calendarButton->setMinimumSize(anchoBotones, altoBotones);
     calendarButton->setMaximumSize(anchoBotones, altoBotones);

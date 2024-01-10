@@ -14,23 +14,23 @@ class NewTask : public QDialog {
 Q_OBJECT
 
 private:
-    QLineEdit *titleLineEdit;
-    QTextEdit *descriptionTextEdit;
-    QDateEdit *dateEdit;
-    QTimeEdit *dateTimeEdit;
-    QPushButton *acceptButton;
+    QLineEdit *titleLineEdit; // Campo de texto para el título
+    QTextEdit *descriptionTextEdit; // Campo de texto para la descripción
+    QDateEdit *dateEdit; // Campo de texto para la fecha
+    QTimeEdit *dateTimeEdit; // Campo de texto para la hora
+    QPushButton *acceptButton; // Botón para aceptar
 
 public:
-    explicit NewTask(QWidget *parent = nullptr);
-    NewTask(QWidget *parent, QString title, QString description, QDate date, QTime time);
+    explicit NewTask(QWidget *parent = nullptr); // Constructor por defecto
+    NewTask(QWidget *parent, QString title, QString description, QDate date, QTime time); // Constructor sobrecargado
     ~NewTask() override;
 
-    void disableDateEdit();
-
 private slots:
+    // Slot para cuando se presiona el botón de aceptar
     void onAcceptButtonClicked();
 
 signals:
+    // Se emite un metodo como señal que envia los datos de la nueva tarea
     void taskCreated(const QString &title, const QString &description, const QDate &date, const QTime &time);
 
 };

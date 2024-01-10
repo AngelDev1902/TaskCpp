@@ -5,16 +5,20 @@ NewTask::NewTask(QWidget *parent) :
 
     setWindowTitle("Crear Nueva Tarea");
 
+    // Inicializar los widgets
     titleLineEdit = new QLineEdit(this);
     descriptionTextEdit = new QTextEdit(this);
     dateEdit = new QDateEdit(QDate::currentDate(), this);
     dateTimeEdit = new QTimeEdit(QDateTime::currentDateTime().time(), this);
     acceptButton = new QPushButton("Aceptar", this);
 
+    // Conectar la señal de click del botón con el slot onAcceptButtonClicked
     connect(acceptButton, SIGNAL(clicked(bool)), this, SLOT(onAcceptButtonClicked()));
 
+    // Crear el layout y agregar los widgets
     QVBoxLayout *layout = new QVBoxLayout(this);
 
+    // Agregar los widgets al layout
     layout->addWidget(new QLabel("Título:", this));
     layout->addWidget(titleLineEdit);
     layout->addWidget(new QLabel("Descripción:", this));
@@ -26,6 +30,7 @@ NewTask::NewTask(QWidget *parent) :
     layout->addWidget(acceptButton);
 }
 
+// Misma implementación que el constructor anterior, pero con los campos ya llenos
 NewTask::NewTask(QWidget *parent, QString title, QString description, QDate date, QTime time) :
         QDialog(parent){
 
@@ -61,9 +66,10 @@ void NewTask::onAcceptButtonClicked() {
     accept();
 }
 
-void NewTask::disableDateEdit() {
-    dateEdit->setEnabled(false);
-}
-
 NewTask::~NewTask() {
+    delete titleLineEdit;
+    delete descriptionTextEdit;
+    delete dateEdit;
+    delete dateTimeEdit;
+    delete acceptButton;
 }

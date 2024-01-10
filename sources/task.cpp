@@ -14,6 +14,7 @@ Task::Task(QFrame *parent, int id, QString title, QString description, QString d
     initComponents();
 }
 
+// Método para inicializar los componentes de la tarea y darles estilo
 void Task::initComponents() {
     QLabel *titleLabel = new QLabel();
     titleLabel->setText("Tarea : " + title);
@@ -36,17 +37,25 @@ void Task::initComponents() {
     editTaskButton->setStyleSheet("background-color: #05A7D6; color: #ffffff; font-size: 20px; font-weight: bold;");
     editTaskButton->setFixedSize(30, 30);
 
-    QObject::connect(editTaskButton, &QPushButton::clicked, this, [=](){ editTask(); });
+    // Conexion que reacciona al click del botón y emite la señal con el id de la tarea
+    QObject::connect(editTaskButton, &QPushButton::clicked, this, [=](){
+        emit emitId(id);
+    });
 
     deleteTaskButton = new QPushButton("X");
     deleteTaskButton->setStyleSheet("background-color: #D60505; color: #ffffff; font-size: 20px; font-weight: bold;");
     deleteTaskButton->setFixedSize(30, 30);
 
-    QObject::connect(deleteTaskButton, &QPushButton::clicked, this, [=](){ deleteTask(); });
+    // Conexion que reacciona al click del botón y emite la señal con el id de la tarea
+    QObject::connect(deleteTaskButton, &QPushButton::clicked, this, [=](){
+        emit emitId(id);
+    });
 
+    // Checkbox para marcar la tarea como completada
     QCheckBox *completeTask = new QCheckBox();
     completeTask->setFixedSize(30, 30);
 
+    // Distribucion de los componentes en el layout
     layout->addWidget(titleLabel, 0, 0, 1, 1);
     layout->addWidget(descriptionLabel, 1, 0, 1, 1);
     layout->addWidget(dateLabel, 2, 0, 1, 1);
@@ -57,14 +66,7 @@ void Task::initComponents() {
     layout->addWidget(completeTask, 2, 1, 1, 3);
 }
 
-void Task::deleteTask() {
-    emit deleteTaskSignal(id);
-}
-
-void Task::editTask() {
-    emit editTaskSignal(id);
-}
-
+// Método para actualizar los datos de la tarea a partir de los parámetros recibidos
 void Task::updateDates(QString title, QString description, QString date, QString time) {
     this->title = title;
     this->description = description;
@@ -72,4 +74,8 @@ void Task::updateDates(QString title, QString description, QString date, QString
     this->time = time;
 }
 
-Task::~Task() {}
+Task::~Task() {
+    delete layout;
+    delete editTaskButton;
+    delete deleteTaskButton;
+}
