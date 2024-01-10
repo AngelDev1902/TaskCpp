@@ -39,7 +39,7 @@ void Task::initComponents() {
 
     // Conexion que reacciona al click del botón y emite la señal con el id de la tarea
     QObject::connect(editTaskButton, &QPushButton::clicked, this, [=](){
-        emit emitId(id);
+        emit emitEditId(id);
     });
 
     deleteTaskButton = new QPushButton("X");
@@ -48,7 +48,7 @@ void Task::initComponents() {
 
     // Conexion que reacciona al click del botón y emite la señal con el id de la tarea
     QObject::connect(deleteTaskButton, &QPushButton::clicked, this, [=](){
-        emit emitId(id);
+        emit emitDeleteId(id);
     });
 
     // Checkbox para marcar la tarea como completada

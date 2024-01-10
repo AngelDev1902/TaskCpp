@@ -31,17 +31,12 @@ void Window::initLayout() {
     // QStackedWidget para almacenar los diferentes frames en el panel de contenido
     stackedWidget = new QStackedWidget(content);
 
-    // Paneles que iran en el stackedWidget
-
-    // Se crea el panel de MyDay
     home = new MyDay(content, userName);
     home->setMinimumSize(content->width(), content->height());
 
-    // Se crea el panel de AllTask
     task = new AllTask(content, userName);
     task->setMinimumSize(content->width(), content->height());
 
-    // Se crea el panel de CalendarPanel
     calendar = new CalendarPanel(content, task);
     calendar->setMinimumSize(content->width(), content->height());
 
@@ -96,19 +91,23 @@ void Window::initComponents() {
     layoutActions->addWidget(taskButton);
     layoutActions->addWidget(calendarButton);
 
+
     // Asignar acciones a los botones
     QObject::connect(homeButton, &QPushButton::clicked, this, [&]() {
-        // Cambiar al widget MyDay en el stackedWidget
+        home->readTasksFile();
+
         stackedWidget->setCurrentIndex(0);
     });
 
     QObject::connect(taskButton, &QPushButton::clicked, this, [&]() {
-        // Cambiar al widget AllTask en el stackedWidget
+        task->readTasksFile();
+
         stackedWidget->setCurrentIndex(1);
     });
 
     QObject::connect(calendarButton, &QPushButton::clicked, this, [&]() {
-        // Cambiar al widget CalendarPanel en el stackedWidget
+        calendar->updateCalendar();
+
         stackedWidget->setCurrentIndex(2);
     });
 }

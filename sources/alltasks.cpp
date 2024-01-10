@@ -110,8 +110,8 @@ void AllTask::viewTasks() {
                     QPointer<Task> taskCopy = new Task(nullptr, task->getId(), task->getTitle(), task->getDescription(), task->getDate(), task->getTime());
 
                     // Conectamos las señales de la tarea copia con las señales de la tarea original
-                    QObject::connect(taskCopy.data(), &Task::emitId, this, &AllTask::deleteTask);
-                    QObject::connect(taskCopy.data(), &Task::emitId, this, &AllTask::editTask);
+                    QObject::connect(taskCopy.data(), &Task::emitDeleteId, this, &AllTask::deleteTask);
+                    QObject::connect(taskCopy.data(), &Task::emitEditId, this, &AllTask::editTask);
 
                     // Agregamos la tarea al layout
                     tasksFrame->layout()->addWidget(taskCopy.data());

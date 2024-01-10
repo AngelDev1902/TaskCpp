@@ -40,7 +40,8 @@ public:
     inline QString getTime() const { return time; }
 
 signals:
-    void emitId(int id);
+    void emitDeleteId(int id);
+    void emitEditId(int id);
 };
 
 

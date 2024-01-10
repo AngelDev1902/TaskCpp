@@ -36,8 +36,8 @@ void MyDay::viewTasks() {
         if (task && task->getDate() == currentDate) {
             QPointer<Task> taskCopy = new Task(nullptr, task->getId(), task->getTitle(), task->getDescription(), task->getDate(), task->getTime());
 
-            QObject::connect(taskCopy.data(), &Task::emitId, this, &AllTask::deleteTask);
-            QObject::connect(taskCopy.data(), &Task::emitId, this, &AllTask::editTask);
+            QObject::connect(taskCopy.data(), &Task::emitDeleteId, this, &AllTask::deleteTask);
+            QObject::connect(taskCopy.data(), &Task::emitEditId, this, &AllTask::editTask);
 
             tasksFrame->layout()->addWidget(taskCopy.data());
         }
